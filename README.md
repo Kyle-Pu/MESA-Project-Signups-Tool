@@ -8,6 +8,9 @@ We either manually sift through the data or spend lots of time creating spreadsh
 ## Solution
 This simple Python script filters through our spreadsheet (signups.xlsx (read more below)) and outputs the project name alongside who wants to sign up for it!
 
+## CodeTriage
+[![Open Source Helpers](https://www.codetriage.com/kyle-pu/mesa-project-signups-tool/badges/users.svg)](https://www.codetriage.com/kyle-pu/mesa-project-signups-tool)
+
 ## Spreadsheet (signups.xlsx)
 This mock spreadsheet contains 6 columns (Name, Machine, Glider, Tank, Bridge, Arm). Here's a brief description of each one:
 * Name: Letters and letters + numbers used as "names"
