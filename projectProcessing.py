@@ -10,9 +10,9 @@ print(signups.apply(lambda x: print(signups[x.isnull()].Name.to_string(index=Fal
 def findNames(col):
     return signups[signups[col] == 1].Name.to_string(index=False)
 
-print("\nMESA Machine Signups:\n", findNames("Machine"))
-print("\nGlider Signups:\n", findNames("Glider"))
-print("\nTank Signups:\n", findNames("Tank"))
-print("\nBridge Signups:\n", findNames("Bridge"))
-print("\nArm Signups:\n", findNames("Arm"))
+print("\nMESA Machine Signups:\n", findNames("Machine"), sep = "")
+print("\nGlider Signups:\n", findNames("Glider"), sep = "")
+print("\nTank Signups:\n", findNames("Tank"), sep = "")
+print("\nBridge Signups:\n", findNames("Bridge"), sep = "")
+print("\nArm Signups:\n", findNames("Arm"), sep = "")
 
