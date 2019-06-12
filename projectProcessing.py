@@ -15,4 +15,19 @@ print("\nGlider Signups:\n", findNames("Glider"), sep = "")
 print("\nTank Signups:\n", findNames("Tank"), sep = "")
 print("\nBridge Signups:\n", findNames("Bridge"), sep = "")
 print("\nArm Signups:\n", findNames("Arm"), sep = "")
+print("\n\n\n")
+
+signups.set_index('Name', inplace = True)
+
+for row in signups.index:
+
+    numProjects = 0
+
+    for col in signups.columns:
+        if signups.loc[row][col] in [1]:
+            numProjects += 1
+
+    print(row, "has", numProjects, "projects.")
+
+
 
