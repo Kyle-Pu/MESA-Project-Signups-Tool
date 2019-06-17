@@ -9,6 +9,11 @@ We either manually sift through the data or spend lots of time creating spreadsh
 ## Solution
 This simple Python script filters through our spreadsheet (signups.xlsx (read more below)) and outputs the project name alongside who wants to sign up for it!
 
+## Features
+1. Finds who signed up for each project.
+2. Find who left a cell blank.
+3. Data Visualizations Coming Soon!!! 
+
 ## Spreadsheet (signups.xlsx)
 This mock spreadsheet contains 6 columns (Name, Machine, Glider, Tank, Bridge, Arm). Here's a brief description of each one:
 * Name: Letters and letters + numbers used as "names"
